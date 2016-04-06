@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/materi"
+            android:checked="false"
+            android:title="Materi"
+            android:icon="@drawable/ic_account_balance_24dp"/>
+
+        <item
+            android:id="@+id/kuis"
+            android:title="Kuis"
+            android:checked="false"
+            android:icon="@drawable/ic_kuis"/>
+
+        <item
+            android:id="@+id/video"
+            android:title="Video Learning"
+            android:checked="false"
+            android:icon="@drawable/ic_video"/>
+
+        <item
+            android:id="@+id/help"
+            android:title="Bantuan"
+            android:checked="false"
+            android:icon="@drawable/ic_help"/>
+
+        <item
+            android:id="@+id/tentang"
+            android:title="Tentang Aplikasi"
+            android:checked="false"
+            android:icon="@drawable/ic_tentang"/>
+        <item
+            android:id="@+id/signout"
+            android:title="Signout"
+            android:checked="false"
+            android:icon="@drawable/ic_signout"/>
+    </group>
+</menu>

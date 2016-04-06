@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/background"
+    android:weightSum="1"
+    android:paddingTop="150dp">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_username"
+        android:layout_gravity="center_horizontal"
+        android:hint="User Name"
+        android:paddingTop="12dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input_password"
+        android:layout_gravity="top|center_horizontal"
+        android:hint="Password"
+        android:paddingBottom="12dp"
+        android:layout_weight="0.04"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tampilkan Password"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/show_password" />
+
+    <Button
+        android:layout_width="152dp"
+        android:layout_height="wrap_content"
+        android:text="Masuk"
+        android:id="@+id/button_login"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tidak Punya Akun? Buat Satu"
+        android:id="@+id/buat_akun"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>
