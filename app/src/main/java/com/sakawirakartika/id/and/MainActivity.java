@@ -15,11 +15,12 @@ public class MainActivity extends AppCompatActivity {
     ListView ListViewMateri;
     Menu menu;
     protected Cursor cursor;
-    public static MainActivity ma;
     private Toolbar mToolbar;
+    public static MainActivity ma;
     private ProgressDialog pDialog;
     private NavigationMenuView navView;
     private DrawerLayout drawLayout;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
