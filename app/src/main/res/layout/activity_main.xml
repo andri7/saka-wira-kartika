@@ -16,7 +16,7 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar" />
     <ListView
-        android:id="@+id/listViewMateri"
+        android:id="@+id/listMateri"
         android:paddingTop="5dip"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"/>

@@ -20,7 +20,6 @@ public class ScreenSplash extends Activity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.splash);
-        getActionBar().hide();
         new Handler().postDelayed(new Runnable() {
 
                         /*
@@ -32,7 +31,7 @@ public class ScreenSplash extends Activity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activityx
-                Intent i = new Intent(ScreenSplash.this, LoginActivity.class);
+                Intent i = new Intent(ScreenSplash.this, MainActivity.class);
                 startActivity(i);
 
                 //close this activity
